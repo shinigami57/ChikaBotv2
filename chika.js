@@ -62,17 +62,17 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:Sofyan AMV\n'
             + 'ORG:Owner Bot;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6281227825649:+62 812-2782-5649\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6282287036878:+62 822-8703-6878\n'
             + 'END:VCARD'
        
 const vcard1 = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:MrG{108P}*\n'
             + 'ORG:Partner Owner;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6281534162316:+62 815-3416-2316\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6288708344182:+62 887-0834-4182\n'
             + 'END:VCARD'
 
-prefix = "z"
+prefix = "#"
 name = "CHIKA BOT"
 rdaftar = "Subscribe Sofyan AMV"
 rmenu = "Subscribe Sofyan AMV"
@@ -80,7 +80,7 @@ botinfo = "Subscribe Sofyan AMV"
 limitt = 50
 memberLimit = 0
 ban = []
-premium = ["6281227825649@s.whatsapp.net","6281534162316@s.whatsapp.net"]
+premium = ["6282287036878@s.whatsapp.net","6288708344182@s.whatsapp.net"]
 
 function kyun(seconds){
   function pad(s){
@@ -235,7 +235,7 @@ async function starts() {
 			}
 
 			const botNumber = chika.user.jid
-			const ownerNumber = ["6281227825649@s.whatsapp.net","6281534162316@s.whataapp.net"] // owner number ubah aja
+			const ownerNumber = ["6282287036878@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await chika.groupMetadata(from) : ''
@@ -392,7 +392,7 @@ async function starts() {
 ║wa.me/6281227825649
 ╙───々
 ╓───「 *_ʙᴏᴛ ɪɴғᴏ_* 」
-║❏ ᴏᴡɴᴇʀ: sᴏғʏᴀɴ ᴀᴍᴠ 
+║❏ ᴏᴡɴᴇʀ: SHINIGAMI 
 ║❏ ᴛᴇᴀᴍ: ᴍx-ᴛ ᴇ ᴀ ᴍ 
 ║❏ ᴘʀᴇғɪx: ${prefix}
 ║❏ ғɪᴛᴜʀ: 330
